@@ -1,0 +1,57 @@
+uuid: d7f9243f-9c99-4548-a6ef-6df4dda354bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jugaad_product.field_app_purchase_link
+    - field.field.node.jugaad_product.field_product_description
+    - field.field.node.jugaad_product.field_product_image
+    - node.type.jugaad_product
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: 11TR58g8gc1CiFRmGvn1c_M2P2A6Zh8gDoyJPzq3cY4
+id: node.jugaad_product.default
+targetEntityType: node
+bundle: jugaad_product
+mode: default
+content:
+  field_app_purchase_link:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_product_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_product_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

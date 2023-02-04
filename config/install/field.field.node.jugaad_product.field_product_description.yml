@@ -1,0 +1,25 @@
+uuid: c5d83731-46ae-493b-8273-aefc04f34300
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_description
+    - node.type.jugaad_product
+  module:
+    - text
+_core:
+  default_config_hash: 26aRhFw3PUL_WU4qU3A0oVaRVjAnZKeLjUfjQ4aK53s
+id: node.jugaad_product.field_product_description
+field_name: field_product_description
+entity_type: node
+bundle: jugaad_product
+label: 'Product description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary
